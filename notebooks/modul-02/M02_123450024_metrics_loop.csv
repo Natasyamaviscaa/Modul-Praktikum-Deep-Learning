@@ -1,0 +1,5 @@
+seed,tahap,yang_diperbaiki,loss_awal,loss_akhir,benar
+24,perbaikan-1,loss.backward() dilakukan sebelum optimizer.step(),0.7308930170934167,0.6931471805599453,2
+24,perbaikan-2,optimizer.zero_grad() ditambahkan,0.7308930170934167,0.7004542632896489,2
+24,perbaikan-3,BCEWithLogitsLoss menerima logits langsung tanpa sigmoid,0.6999742882689264,0.6933568112475578,2
+24,perbaikan-4,menambahkan ReLU di antara kedua layer Linear,0.7079510616622217,0.4209449148416176,4
